@@ -1,0 +1,47 @@
+.auth-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+
+    &-items {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+
+        &-item {
+            width: 94%;
+            margin: 2% 1% 2% 1%;
+            padding: 1%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            span {
+                font-size: 32px;
+                font-weight: normal;
+                color: #FFFFFF;
+                letter-spacing: 1px;
+            }
+
+            button {
+                width: 90%;
+                background-color: #33691E;
+                color: #FFFFFF;
+            }
+
+            button:hover {
+                background-color: #64DD17;
+                color: #212121;
+            }
+
+            button:focus {
+                outline: none;
+            }
+        }
+    }
+}
